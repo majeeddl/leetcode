@@ -1,4 +1,4 @@
-import { containsDuplicate } from './../../arrays_hashing/contains_duplicate';
+import { containsDuplicate } from '../../arrays_hashing/contains_duplicate';
 
 
 
