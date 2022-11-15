@@ -105,3 +105,4 @@ dist
 javascript/yarn.lock
 python/.venv/*
 python/__pycache__/*
+**/__pycache__/*
