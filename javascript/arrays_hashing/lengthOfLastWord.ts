@@ -1,21 +1,20 @@
 export const lengthOfLastWord = (s: string) => {
-  let i = s.length - 1,
-    length = 0;
+//   let i = s.length - 1,
+//     length = 0;
 
-  while (s[i] == " ") {
-    i--;
-  }
+//   while (s[i] == " ") {
+//     i--;
+//   }
 
-  while (i >= 0 && s[i] != " ") {
-    length++;
-    i--;
-  }
+//   while (i >= 0 && s[i] != " ") {
+//     length++;
+//     i--;
+//   }
 
-  return length;
+//   return length; // 107ms
 
-  //   const result = s.trim().split(" ");
+    const result = s.trim().split(" ");
 
-  //   const lastWord = result[result.length - 1];
+    return result[result.length - 1].length; // 77ms
 
-  //   return lastWord.length;
 };
