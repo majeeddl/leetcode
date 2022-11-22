@@ -27,7 +27,9 @@ export const numSquares = (n: number): number => {
   // };
   // return aux(0, 0);
 
-  const dp = new Array(n + 1).fill(0).map((item,index)=> index );
+  // const dp = new Array(n + 1).fill(0).map((item,index)=> index );
+  
+  const dp = Array.from(Array(n + 1).keys());
 
   for (let i = 0; i < n + 1; i++) {
     let j = 1;
@@ -36,7 +38,6 @@ export const numSquares = (n: number): number => {
       j++;
     }
   }
-
 
   return dp.at(-1);
 };
