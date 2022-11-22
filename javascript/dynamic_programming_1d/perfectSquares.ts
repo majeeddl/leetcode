@@ -29,7 +29,6 @@ export const numSquares = (n: number): number => {
 
   const dp = new Array(n + 1).fill(0).map((item,index)=> index );
 
-  console.log(dp);
   for (let i = 0; i < n + 1; i++) {
     let j = 1;
     while (j * j <= i) {
@@ -38,7 +37,6 @@ export const numSquares = (n: number): number => {
     }
   }
 
-  console.log(dp);
 
-  return dp[dp.length - 1];
+  return dp.at(-1);
 };
