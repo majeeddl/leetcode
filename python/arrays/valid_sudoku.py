@@ -25,8 +25,8 @@ class Solution:
                 cols[c].add(board[r][c])
                 squares[(r//3, c//3)].add(board[r][c])
 
-                for key, value in squares.items():
-                    print(key, ' : ', value)
+                # for key, value in squares.items():
+                #     print(key, ' : ', value)
 
 
         return True
