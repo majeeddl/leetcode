@@ -7,4 +7,8 @@ describe("Longest Common Prefix", () => {
   it("test two", () => {
     expect(longestCommonPrefix(["dog", "racecar", "car"])).toBe("");
   });
+
+  it("test three", () => {
+    expect(longestCommonPrefix(["cir", "car"])).toBe("c");
+  });
 });
