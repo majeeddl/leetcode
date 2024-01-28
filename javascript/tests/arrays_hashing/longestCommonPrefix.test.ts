@@ -1,4 +1,4 @@
-import { longestCommonPrefix } from "../../arrays_hashing/longestCommonPrefix";
+import { longestCommonPrefix } from "../../old/arrays_hashing/longestCommonPrefix";
 
 describe("Longest Common Prefix", () => {
   it("test one", () => {

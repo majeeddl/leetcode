@@ -1,12 +1,11 @@
-import { isSubsequesnce } from './../../arrays_hashing/isSubsequence';
+import { isSubsequesnce } from "../../old/arrays_hashing/isSubsequence";
 
+describe("is subsequence", () => {
+  it("test one", () => {
+    expect(isSubsequesnce("abc", "ahbgdc")).toBe(true);
+  });
 
-describe('is subsequence', () => { 
-    it('test one',()=>{
-        expect(isSubsequesnce("abc","ahbgdc")).toBe(true)
-    })
-
-    it("test one", () => {
-      expect(isSubsequesnce("axc", "ahbgdc")).toBe(false);
-    });
- })
+  it("test one", () => {
+    expect(isSubsequesnce("axc", "ahbgdc")).toBe(false);
+  });
+});

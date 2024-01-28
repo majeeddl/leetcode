@@ -1,9 +1,8 @@
-import { isValidSudoku } from './../../arrays_hashing/validSudoku';
+import { isValidSudoku } from "../../old/arrays_hashing/validSudoku";
 
 describe("Valid anagram tests", () => {
   it("test one", () => {
-
-    const board:any = [
+    const board: any = [
       ["5", "3", ".", ".", "7", ".", ".", ".", "."],
       ["6", ".", ".", "1", "9", "5", ".", ".", "."],
       [".", "9", "8", ".", ".", ".", ".", "6", "."],
@@ -17,10 +16,8 @@ describe("Valid anagram tests", () => {
     expect(isValidSudoku(board)).toBe(true);
   });
 
-
   it("test two", () => {
-
-    const board:any = [
+    const board: any = [
       ["8", "3", ".", ".", "7", ".", ".", ".", "."],
       ["6", ".", ".", "1", "9", "5", ".", ".", "."],
       [".", "9", "8", ".", ".", ".", ".", "6", "."],
@@ -33,5 +30,4 @@ describe("Valid anagram tests", () => {
     ];
     expect(isValidSudoku(board)).toBe(false);
   });
-
 });

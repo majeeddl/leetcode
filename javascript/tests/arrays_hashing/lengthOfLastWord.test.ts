@@ -1,4 +1,4 @@
-import { lengthOfLastWord } from "../../arrays_hashing/lengthOfLastWord";
+import { lengthOfLastWord } from "../../old/arrays_hashing/lengthOfLastWord";
 
 describe("find length of last word", () => {
   it("test one", () => {

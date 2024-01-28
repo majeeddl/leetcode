@@ -1,4 +1,4 @@
-import { isAnagram } from "../../arrays_hashing/valid_anagram";
+import { isAnagram } from "../../old/arrays_hashing/valid_anagram";
 
 describe("Valid anagram tests", () => {
   it("test one", () => {
