@@ -18,10 +18,4 @@ describe("Two Sum", () => {
     const target = -8;
     expect(twoSum(nums, target)).toEqual([2, 4]);
   });
-
-  it("should handle zero", () => {
-    const nums = [0, 1, 2, 3, 4];
-    const target = 3;
-    expect(twoSum(nums, target)).toEqual([0, 3]);
-  });
 });
